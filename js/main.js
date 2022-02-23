@@ -31,7 +31,7 @@ function enviarDatos() {
     sessionStorage.setItem("data", mensaje)
     // le configuro un retardo para que se pueda leer el anuncio de que los datos se cargaron bien
     function tardanza(){ 
-         window.location.href="login.html"}
+         window.location.href="/ternero/pages/login.html"}
 
     setTimeout  (tardanza,1200);
     }
