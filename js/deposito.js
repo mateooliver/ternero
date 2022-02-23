@@ -40,7 +40,7 @@ localStorage.setItem("plataDepositada", plataDepositada)
 let validacionDep=false
 
 function yaDeposite(){
-  window.location.href="/pages/dashboard.html"
+  window.location.href="dashboard.html"
   let validacionDep=true
   sessionStorage.setItem("deposito",true)
   
