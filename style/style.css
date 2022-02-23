@@ -1,0 +1,65 @@
+html{
+font-family: 'Teko', sans-serif;
+}
+.logoMenu{
+width: 12vw;
+}
+
+.fondoIndex{
+    background-image:url(../img/fondo.jpg) ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height:100vh;
+    position: relative;
+    padding-bottom: 12vh;
+}
+.fondoFAQS{
+    background-image:url(../img/faqs.png) ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height:100vh;
+    position: relative;
+    padding-bottom: 12vh;
+}
+.fondoMenu{
+    background-image: url(../img/img.png);
+}
+.orden{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+
+}
+.fontSize{
+    font-size: 60%;
+
+}
+.backgroundDash{
+    background-image:url(../img/fondoDash.jpg) ;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.card-background{
+   background-color:transparent;
+   background-image: url(../img/back-card.png);
+   background-repeat: no-repeat;
+    background-size:cover;
+}
+.linea{
+    width: 40vW;
+    height: auto;
+}
+.footer{
+
+    background-image: url(../img/back-card.png);
+    height: 10vh;
+    width: auto;
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.hover:hover{
+    background-color: #6c757d;
+    color: white;
+}
