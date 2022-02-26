@@ -36,5 +36,5 @@ let rendimiento=rentabilidad
 })
 // redireccion a la pagina de deposito. es una funcion enlazada a un evento onclick
 function Deposita() {
-    window.location.href="/ternero/pages/dashboard.html"
+    window.location.href="/ternero/pages/deposito.html"
 }
